@@ -1,4 +1,5 @@
-chrome-extension-boilerplate
-============================
+This is still a work in progress.
 
-A chrome extension boilerplate.
+##Currently working on
+* Options page
+* General app framework
