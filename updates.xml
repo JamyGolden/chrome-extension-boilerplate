@@ -1,29 +1,6 @@
-{
-  "name": "CSS-Tricks Moderator",
-  "version": "0.0.1",
-  "manifest_version": 2,
-  "description": "A plugin that extends the CSS-Tricks forum functionality.",
-  "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
-  "default_locale": "en",
-  "background": {
-    "scripts": [
-      "src/bg/background.js"
-    ],
-    "persistent": true
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://css-tricks.com/forums/*"
-      ],
-      "js": [
-        "src/inject/inject.js"
-      ]
-    }
-  ],
-  "update_url": "http://myhost.com/mytestextension/updates.xml"
-}
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
+    <app appid='fkphbmkcjefhhnnlhhjlnkellidponel'>
+        <updatecheck codebase='http://yourwebsite.com/path/to/extension.crx' version='1.0' />
+    </app>
+</gupdate>

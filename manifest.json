@@ -1,8 +1,8 @@
 {
-    "name": "CSS-Tricks Mod Utilities",
+    "name": "Extension name",
     "version": "0.0.1",
     "manifest_version": 2,
-    "description": "A plugin that extends the CSS-Tricks forum functionality.",
+    "description": "Extension description",
     "icons": {
         "16": "public/images/icons/icon16.png",
         "48": "public/images/icons/icon48.png",
@@ -19,15 +19,16 @@
         "default_icon": "public/images/icons/icon16.png",
         "default_popup": "public/app/templates/popup.html"
     },
-    "content_scripts": [
-        {
-            "matches": [
-                "http://css-tricks.com/forums/*"
-            ],
-            "js": [
-                "public/app.js"
-            ]
-        }
-    ],
-    "update_url": "http://myhost.com/mytestextension/updates.xml"
+    // Run script on specific url
+    // "content_scripts": [
+    //     {
+    //         "matches": [
+    //             "http://css-tricks.com/forums/*"
+    //         ],
+    //         "js": [
+    //             "public/app.js"
+    //         ]
+    //     }
+    // ],
+    "update_url": "http://yourwebsite.com/path/to/updates.xml"
 }
